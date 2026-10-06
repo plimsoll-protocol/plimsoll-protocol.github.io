@@ -6,7 +6,7 @@ ACCOUNTS = ["GBIE3ANCRVCBWETUZXWYKRMP27LQVJHX757XXAQUT3LYHVTNFPPPXEY4"]
 
 [DOCUMENTATION]
 ORG_NAME = "Plimsoll demo issuer (testnet)"
-ORG_URL = "https://plimsoll-protocol.github.io/plimsoll-app/"
+ORG_URL = "https://plimsoll-app-gths-amber.vercel.app/"
 ORG_DESCRIPTION = "Issues the PUSD demo asset used to show Plimsoll reserve coverage on Stellar testnet."
 ORG_GITHUB = "plimsoll-protocol"
 
