@@ -1,0 +1,23 @@
+# SEP-1 stellar.toml for the Plimsoll TESTNET demo issuer.
+# PUSD is a demonstration asset on Stellar testnet. It is not money.
+VERSION = "2.7.0"
+NETWORK_PASSPHRASE = "Test SDF Network ; September 2015"
+ACCOUNTS = ["GBIE3ANCRVCBWETUZXWYKRMP27LQVJHX757XXAQUT3LYHVTNFPPPXEY4"]
+
+[DOCUMENTATION]
+ORG_NAME = "Plimsoll demo issuer (testnet)"
+ORG_URL = "https://plimsoll-protocol.github.io/plimsoll-app/"
+ORG_DESCRIPTION = "Issues the PUSD demo asset used to show Plimsoll reserve coverage on Stellar testnet."
+ORG_GITHUB = "plimsoll-protocol"
+
+[[CURRENCIES]]
+code = "PUSD"
+issuer = "GBIE3ANCRVCBWETUZXWYKRMP27LQVJHX757XXAQUT3LYHVTNFPPPXEY4"
+status = "test"
+display_decimals = 2
+name = "Plimsoll demo dollar"
+desc = "Testnet demonstration asset. Reserve figures are illustrative."
+is_asset_anchored = true
+anchor_asset_type = "fiat"
+anchor_asset = "USD"
+attestation_of_reserve = "https://raw.githubusercontent.com/plimsoll-protocol/plimsoll-contracts/main/docs/demo/pusd-reserves-2026-10.md"
