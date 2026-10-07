@@ -20,4 +20,4 @@ desc = "Testnet demonstration asset. Reserve figures are illustrative."
 is_asset_anchored = true
 anchor_asset_type = "fiat"
 anchor_asset = "USD"
-attestation_of_reserve = "https://raw.githubusercontent.com/plimsoll-protocol/plimsoll-contracts/main/docs/demo/pusd-reserves-2026-10.md"
+attestation_of_reserve = "https://raw.githubusercontent.com/plimsoll-protocol/plimsoll-contracts/main/docs/demo/pusd-reserves-2026-10-07.md"
